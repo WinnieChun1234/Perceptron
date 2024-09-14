@@ -6,16 +6,16 @@ This is part of the fifth assignmnet of my computer vision course in the univers
 ### To train the perceptron and make predictions on new image, I have done the following features:
 
 1. train() - training a perceptron for classifying Iris setosa and Iris versicolor (i.e., a binary classification problem);
-    A. Initialize the parameters of the perceptron to small random numbers.
+    1. Initialize the parameters of the perceptron to small random numbers.
        Two 5-D array using np.random.normal() and np.random.standard_normal() respectively, namely params and weight
-    B. Update the parameters of the perceptron based on the perceptron learning algorithm as described in the lecture notes.
-          i.   extract input values from train_data and augment the inputs with x0 = 1
+    2. Update the parameters of the perceptron based on the perceptron learning algorithm as described in the lecture notes.
+          1.   extract input values from train_data and augment the inputs with x0 = 1
                 1. assign train_data as variable x
                 2. insert 0 into the first column of x
                 3. delete the last column of x since it is the labels
-          ii.  extract target outputs from train_data
+          2.  extract target outputs from train_data
                 assign the last column of train_data as t, where t represents the vector of labels/truth
-          iii. repeat until converged or max no. of iterations has been reached
+          3.  epeat until converged or max no. of iterations has been reached
                 1. set up counter
                 2. set up while-loop with maximum iterations as max_itr
                 3. compute the z value as the output vector y = x * params
