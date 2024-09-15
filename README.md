@@ -3,7 +3,7 @@
 This is part of the fifth assignmnet of my computer vision course in the university. The assignment comes with partially completed Python programs and the tasks are to train a perceptron for classifying Iris setosa and Iris versicolor (i.e., a binary classification problem), and to make predictions based on attributes of the flowers.
 
 
-### To train the perceptron and make predictions on new image, I have done the following features:
+### Implementation Workflow (My Tasks)
 
 1. train() - training a perceptron for classifying Iris setosa and Iris versicolor (i.e., a binary classification problem);
     1. Initialize the parameters of the perceptron to small random numbers.
